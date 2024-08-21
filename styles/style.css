@@ -34,16 +34,16 @@
 .nav__links {
   margin: 8px 0 0;
   display: flex;
-  column-gap: 20px;
+  gap: 20px; /* Usar gap en lugar de column-gap */
   list-style-type: none;
-  padding: 0px;
+  padding: 0;
 }
 
 .nav__link {
   color: #000000;
   text-decoration: none;
   font-weight: bold;
-  padding: 0px;
+  padding: 0;
 }
 
 .header__content {
@@ -121,7 +121,7 @@
   max-width: 760px;
   margin: auto;
   margin-top: 68px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -129,6 +129,7 @@
   list-style-type: none;
   padding-left: 0;
 }
+
 .card {
   background-color: #fff;
   border-radius: 6px;
@@ -165,6 +166,7 @@
   color: #838383;
   margin-top: auto;
 }
+
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
@@ -293,6 +295,7 @@
   font-size: 14px;
   margin: 0;
 }
+
 .membership {
   padding: 100px 0 140px;
   background-color: #057bf2;
@@ -310,10 +313,11 @@
 
 .membership__steps {
   list-style-type: none;
-  padding: 0 250px;
-  margin: 100px 0 0;
+  padding: 220;
+  margin: 100px auto 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 40px;
 }
 
 .step {
@@ -326,7 +330,7 @@
 .step__title {
   display: flex;
   align-items: center;
-  margin: 0 0 10px 0;
+  margin: 0 0 10px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
@@ -335,12 +339,11 @@
 }
 
 .step__icon {
-  margin-left: auto;
   margin-left: 10px;
 }
 
 .step__description {
-  margin: 0px;
+  margin: 0;
 }
 
 .footer {
@@ -388,7 +391,6 @@
 }
 
 .footer__list {
-  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -403,12 +405,14 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Usar gap en lugar de column-gap */
 }
 
 .footer__social-icon {
   height: 16px;
   width: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
