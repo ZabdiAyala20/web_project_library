@@ -248,25 +248,21 @@
 }
 
 .person_name_feynman {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
   top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
   bottom: 18px;
   right: 216px;
 }
 
 .person_name_mitchell {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
   bottom: 82px;
   left: 142px;
 }
@@ -296,4 +292,129 @@
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0 250px;
+  margin: 100px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: 220px;
+}
+
+.step__title {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  padding: 0;
+  gap: 5px;
+}
+
+.step__icon {
+  margin-left: auto;
+  margin-left: 10px;
+}
+
+.step__description {
+  margin: 0px;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #363333;
+  padding: 60px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer__columns {
+  display: flex;
+  gap: 60px;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.footer__column_content_hours {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  width: 300px;
+}
+
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  width: 300px;
+}
+
+.footer__logo {
+  height: 80px;
+  width: 58px;
+  margin-right: 20px;
+}
+
+.footer__column-heading {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer__list {
+  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.footer__copyright {
+  position: absolute;
+  bottom: 60px;
+  left: 80px;
+  font-size: 14px;
+  color: #fff;
 }
