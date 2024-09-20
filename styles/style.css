@@ -265,8 +265,8 @@
 }
 .membership__steps {
   list-style-type: none;
-  padding: 50px;
-  margin: 0 auto;
+  padding: 40px;
+  margin: 100px 0 0;
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -288,11 +288,10 @@
   gap: 5px;
 }
 .step__icon {
-  margin-left: 0;
+  margin-left: 20px;
 }
 .step__description {
-  margin: 0;
-  margin-top: 0;
+  margin: 10px 0 0;
 }
 .footer {
   box-sizing: border-box;
@@ -315,12 +314,14 @@
   flex-direction: column;
   color: #fff;
   width: 300px;
+  margin-left: auto;
 }
 .footer__column_content_social {
   display: flex;
   flex-direction: column;
   color: #fff;
   width: 300px;
+  margin-left: auto;
 }
 .footer__logo {
   height: 80px;
@@ -360,5 +361,5 @@
   left: 80px;
   font-size: 14px;
   color: #fff;
-  margin-top: 0;
+  margin-top: 100px;
 }
