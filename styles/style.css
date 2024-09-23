@@ -61,6 +61,7 @@
 }
 .header__image {
   max-width: 636px;
+  mix-blend-mode: multiply; /* Esto fusiona la imagen con el fondo */
 }
 .header__footer {
   margin-top: auto;
